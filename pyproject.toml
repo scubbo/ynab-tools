@@ -1,7 +1,7 @@
 [project]
 name = "ynab-tools"
 version = "0.1"
-description = "Tools for use with YNAB ("You Need A Budget")"
+description = "Tools for use with YNAB (\"You Need A Budget\")"
 readme = "README.md"
 authors = [{name = "Jack Jackson"}]
 license = {text = "Apache-2.0"}
@@ -10,7 +10,8 @@ classifiers = [
     "License :: OSI Approved :: Apache Software License"
 ]
 dependencies = [
-    "click"
+    "click",
+    "requests"
 ]
 
 [project.urls]
