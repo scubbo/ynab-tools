@@ -1,0 +1,26 @@
+[project]
+name = "ynab-tools"
+version = "0.1"
+description = "Tools for use with YNAB ("You Need A Budget")"
+readme = "README.md"
+authors = [{name = "Jack Jackson"}]
+license = {text = "Apache-2.0"}
+requires-python = ">=3.8"
+classifiers = [
+    "License :: OSI Approved :: Apache Software License"
+]
+dependencies = [
+    "click"
+]
+
+[project.urls]
+Homepage = "https://github.com/scubbo/ynab-tools"
+Changelog = "https://github.com/scubbo/ynab-tools/releases"
+Issues = "https://github.com/scubbo/ynab-tools/issues"
+CI = "https://github.com/scubbo/ynab-tools/actions"
+
+[project.entry-points.console_scripts]
+ynab-tools = "ynab_tools.cli:cli"
+
+[project.optional-dependencies]
+test = ["pytest"]
